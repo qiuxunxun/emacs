@@ -4,3 +4,5 @@
 !README.md
 !early-init.el
 !elfeed.score
+!.gitignore
+!.init.el
