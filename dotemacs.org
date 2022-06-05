@@ -1295,7 +1295,7 @@ pyim-probe-dynamic-english 自动切换中英文输入法的规则：
 (setq org-html-preamble "<a name=\"top\" id=\"top\"></a>")
 
 (use-package org-html-themify
-  :straight (org-html-themify :repo "DogLooksGood/org-html-themify" :files ("*.el" "*.js" "*.css"))
+  :straight (org-html-themify :type git :host github :repo "DogLooksGood/org-html-themify" :files ("*.el" "*.js" "*.css"))
   :hook
   (org-mode . org-html-themify-mode)
   :custom
